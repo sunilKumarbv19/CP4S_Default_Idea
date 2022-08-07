@@ -1,0 +1,14 @@
+Phishing
+
+Analyse Header - https://mxtoolbox.com/EmailHeaders.aspx
+Analyse URL- https://www.virustotal.com/gui/home/url
+Analyse IP - https://www.abuseipdb.com/
+
+Threat Hunting:
+
+any alternative - https://alternativeto.net/
+File Analysis - https://hybrid-analysis.com/
+Cross Browser - https://www.browserling.com/
+malware hunter - https://app.any.run/
+Windows cheat_sheet - https://www.malwarearchaeology.com/cheat-sheets
+
