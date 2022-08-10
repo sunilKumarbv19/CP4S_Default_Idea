@@ -12,3 +12,4 @@ Cross Browser - https://www.browserling.com/
 malware hunter - https://app.any.run/
 Windows cheat_sheet - https://www.malwarearchaeology.com/cheat-sheets
 
+https://stackoverflow.com/questions/55251213/how-do-i-allow-a-iframe-with-a-content-security-policy-csp
