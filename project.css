@@ -110,3 +110,12 @@ body {
   display: none;
   overflow: hidden;
 }
+
+/* input{
+  position: absolute;
+  right: 5%;
+} */
+
+.inside{
+  padding: 5px;
+}

@@ -27,190 +27,308 @@
     <a href="../pages/playbookhub.html" class="active">Playbook Hub</a>
     <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
 </div>
-
 <div class="maincontainer">
-  <button class="accordion">Malware Playbook</button>
-<!-- <div class="panel">
-  <button onclick="myFunction()" class="malware">Preparation</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
+  <div class="col-sm-2 options">
+      <button onclick="myFunction('malware')">Malware Playbook</button>
+      <button onclick="myFunction('dataloss')">Data Loss Playbook</button>
+      <button onclick="myFunction('phishing')">Phishing Playbook</button>
+  </div>
+  <div class="col-sm-10 framepage">
+    <div id="malware" >
+      <button class="accordion">Preparation</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Identify the Malware Infected System</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Collect and Preserve the Standard Evidences</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+    
+    <button class="accordion">Identification (Detect/Analyze)</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Analyze affected system and account</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Analyze network for malware activity & Identify other Infected System</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Review Anti-Virus Venture and check status in AV database</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>add all logs and details</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Update the Internal management team assessment</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+    
+    <button class="accordion">Containment</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Select and Execute initial Containment Process/strategy</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Disconnect or isolate Compromised system (with IR approval)</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Capture the accurate time stamp for Containment of Incident</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Eradicate (Respond)</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Execute an appropriate eradication or Recovery process/strategy</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Confirm completion of malware Remediation</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Implement network Countermeasures</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Recover</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Remove temporary containment measures</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>notify internal management Chain (resolution)</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Harden / patch all Vulnerable system</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Learn</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Improvement of Playbook or use case</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Update Policies, Procedures and Guidelines</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+
+  </div>
+
+    <div id="dataloss" >
+      <button class="accordion">Preparation</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Determine the Characterization of Data</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Identify the Malware Infected System</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Collect and Preserve the Standard Evidences</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+    
+    <button class="accordion">Identification (Detect/Analyze)</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Capture and Conduct analysis on appropriate Log files</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Determine data at-Risk based on known element of the incident</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>outline the proposed recovery plan, risk assessment</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>add all logs and details</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+    
+    <button class="accordion">Containment</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Select and Execute initial Containment Process/strategy</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Disconnect or isolate Compromised system (with IR approval)</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Eradicate (Respond)</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Execute an appropriate eradication or Recovery process/strategy</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Confirm completion of malware Remediation</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Implement network Countermeasures</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Recover</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Remove temporary containment measures</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>notify internal management Chain (resolution)</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Harden / patch all Vulnerable system</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Learn</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Improvement of Playbook or use case</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Update Policies, Procedures and Guidelines</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+
+    </div>
+
+    <div id="phishing" >
+      <button class="accordion">Preparation</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Determine the Characterization of Data</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Identify the Malware Infected System</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Collect and Preserve the Standard Evidences</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+    
+    <button class="accordion">Identification (Detect/Analyze)</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Analyze header of suspected email message</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>determine the techniques used for engage targets</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Remove delivered or quarantined emails</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+    
+    <button class="accordion">Containment</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Request malicious message is purged from employee email boxes </span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Block Inbound messages from malicious sender</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Implement network Countermeasures</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Eradicate (Respond)</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Require Credential reset for any employees contacting a malicious site</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Implement network Countermeasures</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Recover</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Remove temporary containment measures</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>notify internal management Chain (resolution)</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+    <button class="accordion">Learn</button>
+    <div class="panel">
+      <div class="inside">
+        <span>Improvement of Playbook or use case</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+      <div class="inside">
+        <span>Update Policies, Procedures and Guidelines</span>
+        <input type="text" style="position: absolute;right: 5%;">
+      </div>
+    </div>
+
+
+    </div>
   </div>
   
-  <button class="malware">Identification
-    (Detect/Analyze)
-    </button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-  
-  <button class="malware">Containment</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-  <button class="malware">Eradicate (Respond)</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-  
-  <button class="malware">Recover</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-  
-  <button class="malware">Learn</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-</div> -->
-<div class="panel">
-  <ul>
-    <li>Preparation
-        <ol>
-            <li>Identify the Malware Infected System</li>
-            <li>Collect and Preserve the Standard Evidences</li>
-        </ol>
-    </li>
-    <li>Identification (Detect/Analyze)      
-      <ol>
-          <li>Analyze affected system and account</li>
-          <li>Analyze network for malware activity & Identify other Infected System</li>
-          <li>Review Anti-Virus Venture and check status in AV database</li>
-          <li>add all logs and details</li>
-          <li>Update the Internal management team assessment</li>
-      </ol>
-  </li>
-  <li>Containment
-    <ol>
-        <li>Select and Execute initial Containment Process/strategy</li>
-        <li>Disconnect or isolate Compromised system (with IR approval)</li>
-        <li>Capture the accurate time stamp for Containment of Incident</li>
-    </ol>
-  </li>
-  <li>Eradicate (Respond)
-    <ol>
-        <li>Execute an appropriate eradication or Recovery process/strategy</li>
-        <li>Confirm completion of malware Remediation</li>
-        <li>Implement network Countermeasures</li>
-    </ol>
-  </li>
-  <li>Recover
-    <ol>
-      <li>Remove temporary containment measures</li>
-      <li>notify internal management Chain (resolution)</li>
-      <li>Harden / patch all Vulnerable system</li>
-    </ol>
-  </li>
-  <li>Learn
-    <ol>
-        <li>Improvement of Playbook or use case</li>
-        <li>Update Policies, Procedures and Guidelines</li>
-    </ol>
-</li>
-
-</ul>
 </div>
 
-<button class="accordion">Data Loss Playbook</button>
-<div class="panel">
-  <ul>
-    <li>Preparation
-        <ol>
-            <li>Determine the Characterization of Data/li>
-            <li>Identify the Malware Infected System</li>
-            <li>Collect and Preserve the Standard Evidences</li>
-        </ol>
-    </li>
-    <li>Identification (Detect/Analyze)      
-      <ol>
-          <li>Capture and Conduct analysis on appropriate Log files</li>
-          <li>Determine data at-Risk based on known element of the incident</li>
-          <li>outline the proposed recovery plan, risk assessment</li>
-          <li>add all logs and details</li>
-      </ol>
-  </li>
-  <li>Containment
-    <ol>
-        <li>Select and Execute initial Containment Process/strategy</li>
-        <li>Disconnect or isolate Compromised system (with IR approval)</li>
-    </ol>
-  </li>
-  <li>Eradicate (Respond)
-    <ol>
-        <li>Execute an appropriate eradication or Recovery process/strategy</li>
-        <li>Confirm completion of malware Remediation</li>
-        <li>Implement network Countermeasures</li>
-    </ol>
-  </li>
-  <li>Recover
-    <ol>
-      <li>Remove temporary containment measures</li>
-      <li>notify internal management Chain (resolution)</li>
-      <li>Harden / patch all Vulnerable system</li>
-    </ol>
-  </li>
-  <li>Learn
-    <ol>
-        <li>Improvement of Playbook or use case</li>
-        <li>Update Policies, Procedures and Guidelines</li>
-    </ol>
-</li>
-
-</ul>
-</div>
-
-<button class="accordion">Phishing Playbook</button>
-<div class="panel">
-  <ul>
-    <li>Preparation
-        <ol>
-            <li>Determine the Characterization of Data/li>
-            <li>Identify the Malware Infected System</li>
-            <li>Collect and Preserve the Standard Evidences</li>
-        </ol>
-    </li>
-    <li>Identification (Detect/Analyze)      
-      <ol>
-          <li>Analyze header of suspected email message</li>
-          <li>determine the techniques used for engage targets</li>
-          <li>Remove delivered or quarantined emails</li>
-      </ol>
-  </li>
-  <li>Containment
-    <ol>
-        <li>Request malicious message is purged from employee email boxes</li>
-        <li>Block Inbound messages from malicious sender</li>
-        <li>Implement network Countermeasures</li>
-    </ol>
-  </li>
-  <li>Eradicate (Respond)
-    <ol>
-        <li>Require Credential reset for any employees contacting a malicious site</li>
-        <li>Implement network Countermeasures</li>
-    </ol>
-  </li>
-  <li>Recover
-    <ol>
-      <li>Remove temporary containment measures</li>
-      <li>notify internal management Chain (resolution)</li>
-    </ol>
-  </li>
-  <li>Learn
-    <ol>
-        <li>Improvement of Playbook or use case</li>
-        <li>Update Policies, Procedures and Guidelines</li>
-    </ol>
-</li>
-
-</ul>
-</div>
-</div>
 <script>
   var acc = document.getElementsByClassName("accordion");
   var i;
-  
+  document.getElementById("malware").style.display="none";
+  document.getElementById("dataloss").style.display="none";
+  document.getElementById("phishing").style.display="none";
   for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
-      console.log("in");
       this.classList.toggle("active");
       var panel = this.nextElementSibling;
       if (panel.style.display === "block") {
@@ -220,25 +338,15 @@
       }
     });
   }
-  function myFunction() {
-    console.log("pop");
-}
+  function myFunction(url) {
+    document.getElementById("malware").style.display="none";
+    document.getElementById("dataloss").style.display="none";
+    document.getElementById("phishing").style.display="none";
+    var page = document.getElementById(url);
+      page.style.display = "block";
 
-  var accm = document.getElementsByClassName("malware");
-  var m;
-  
-  for (m = 0; m < accm.length; m++) {
-    accm[i].addEventListener("click", function() {
-      console.log("op");
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-  }
+    
+    }
   </script>
 </body>
 </html>
