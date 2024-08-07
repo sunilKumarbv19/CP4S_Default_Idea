@@ -8,7 +8,10 @@ As Publically Scottish Government - NCC Group has from Author - "SG CRU" Created
 Version Playbook for public sector.
 
 https://www.gov.scot/publications/cyber-resilience-guidance/
+
 https://www.coursehero.com/file/113245539/CyberCapabilityToolkit-CyberIncidentResponse-MalwarePlaybookv23pdf/
+
 https://www.gov.scot/binaries/content/documents/govscot/publications/advice-and-guidance/2019/10/cyber-resilience-incident-management/documents/cyber-incident-response-ransomware-playbook/cyber-incident-response-ransomware-playbook/govscot%3Adocument/Cyber%2BIncident%2BResponse%2B-%2BGeneric%2BRansomware%2BPlaybook%2Bv2.3.docx
+
 https://www.gov.scot/binaries/content/documents/govscot/publications/advice-and-guidance/2019/10/cyber-resilience-incident-management/documents/cyber-incident-response-denial-of-service-playbook/cyber-incident-response-denial-of-service-playbook/govscot%3Adocument/Cyber%2BIncident%2BResponse%2B-%2BGeneric%2BDenial%2Bof%2BService%2BPlaybook%2Bv2.3.docx
 
